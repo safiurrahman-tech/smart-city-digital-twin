@@ -1,0 +1,13 @@
+# API credentials and admin secrets
+.env
+.env.*
+!.env.example
+# Collected traffic, temporary data and local dependencies
+*.db
+*.db-*
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+data/water/*.kml
